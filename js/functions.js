@@ -72,6 +72,10 @@ parent3.classList.remove("blue");
 console.log(button[15].innerText);
 
 button[15].innerText= "Buy Now!";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6b11d50384ab8043ef28f1b547fb2367fb9ecc3c
 
 //****MODIFY STYLE****// Modify Styles in the Txt
 console.log(button[15].style);
