@@ -216,7 +216,7 @@ function carritoHTML () {
         <p>${item.title}</p>
         <p>${item.price}</p>
         
-        <img src="../Together/css/assets/Iconos/borrar.png" class="delete-icon" alt="Eliminar producto">
+        <img src="css/assets/Iconos/borrar.png" class="delete-icon" alt="Eliminar producto">
             </i>
         `;
 
