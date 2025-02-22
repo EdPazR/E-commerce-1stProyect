@@ -71,7 +71,7 @@ parent3.classList.remove("blue");
 /*1*/const button = document.getElementsByTagName("button");
 console.log(button[15].innerText);
 
-button[15].innerText= "COMPRAR";
+button[15].innerText= "Buy Now!";
 
 //****MODIFY STYLE****// Modify Styles in the Txt
 console.log(button[15].style);
