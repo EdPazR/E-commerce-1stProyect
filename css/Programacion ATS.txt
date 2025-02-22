@@ -1,0 +1,54 @@
+PROGRAMACION ATS =
+
+Topics to Keep praticing :
+
+- 8 . Entrada y salida de datos por consola.
+ 
+	 Scanner entrada = new Scanner (System.in);
+    
+    String cadena;
+        System.out.println("Digite una cadena");
+        cadena = entrada.nextLine();
+        
+        System.out.println("La cadena es: " + cadena);
+
+
+	String *
+	Char *
+
+
+- 9 .Entrada y salida de datos con JOptionPane
+
+
+import javax.swing.JOptionPane;
+
+	String cadena;
+        int entero;
+        char letra;
+        double decimal;
+        
+        
+   cadena = JOptionPane.showInputDialog("Digite algo");
+   entero = Integer.parseInt(JOptionPane.showInputDialog("Digite un entero"));
+   letra = JOptionPane.showInputDialog("Digite un caracter").charAt(0);
+   decimal = Double.parseDouble(JOptionPane.showInputDialog("Digite un decimal"));
+    
+ JOptionPane.showMessageDialog(null, "La cadena es: " + cadena);
+  JOptionPane.showMessageDialog(null, "Entero es: " +  entero);
+   JOptionPane.showMessageDialog(null, "Letra es: " + letra);
+    JOptionPane.showMessageDialog(null, "Decimal es: " + decimal);
+
+
+W3 SCHOOLD = 
+
+ARRAYS CREATIOND : 
+https://www.w3schools.com/java/java_arrays.asp
+
+
+https://github.com/EdPazR/Test2024.git
+
+EBAC
+
+infraestructura de redes y servicios
+
+Waka time 

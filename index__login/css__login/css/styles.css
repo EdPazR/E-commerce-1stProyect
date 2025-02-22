@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 3px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    width: 100%;
+    margin: 0 0;
+    
+}
+
+.header__title{
+    
+    display: grid;
+    grid-column: 2 / 5;
+
+    justify-content:center;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: #919191;
+    
+}
+
+.header__back, a{
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1;
+    text-shadow: #919191;
+    cursor: pointer;
+    width: 50px;    
+}
+
+
+    
+
+main {
+    margin-top: 0px;
+    
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat 1fr ;
+}
+
+.form {
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-image: url(../css/assets_signin/signIn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+    padding: 30px;
+    border: 10px;
+    display: grid;
+    gap: 3rem;
+    grid-column: 3;
+    grid-row: 1;
+    box-shadow: #919191;
+}
+
+.form__title{
+    text-align: center;
+    font-size: 4rem;
+    color: #ffffff;
+    
+    
+}
+
+.input__info {
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 250px;
+    padding: .75rem;
+}
+
+.form_btn{
+    border: 2px solid #000;
+    border-radius: 20px;
+    width: 200px;
+    padding: .75rem;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    background-color: #fff700;
+    color: #000000;
+}
+
+.form_btn--A:hover{
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+footer {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    margin: 0 0;
+}
+
