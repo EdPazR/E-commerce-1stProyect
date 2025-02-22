@@ -111,7 +111,7 @@ header {
  .mainMenu__list {
     font-family: 'Courier New', Courier, monospace;
     font-weight: $FontW6;
-    color: #000000;
+    color: #ffffff;
     margin-top: 5px;
     margin-left: 20px;
 
@@ -121,7 +121,9 @@ header {
     box-sizing: border-box;
     height: 250px;
     
-    background-color: #6c6c6c;
+    background-color: #000560 white;
+    border: 5px solid white;
+
     position: absolute;
     box-sizing: border-box;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -149,19 +151,24 @@ header {
 
 }
 
+
     .closeMenu{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: flex-end;
         margin-top: 3px;
-        margin-right: -10px;
-        
+        margin-right: -10px;    
     }
 
     .closeMenuImg {
         width: 20px;
         cursor: pointer;
+    }
+
+    .ul__menu_li:hover {
+        background-color: #000;
+        border-radius: 10px;
     }
 
  .banner{
@@ -404,7 +411,7 @@ border-radius: 10px;
 
 .cart {
 div {
-border-bottom: 2px solid #333;
+
 @include flexSpcBtwnCnter;
 
 }
@@ -438,7 +445,7 @@ width: 30px;
 }
 
 .cart__buy {
-margin-top: 7px;
+
 
 button{
     background-color: #16b132;
