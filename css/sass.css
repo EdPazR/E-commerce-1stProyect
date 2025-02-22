@@ -332,6 +332,10 @@ span {
 }
 
 .cart div {
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 2ebc6c15366085146d8b89b1d1679797f1a6209a
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
