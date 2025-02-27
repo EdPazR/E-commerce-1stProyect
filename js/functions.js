@@ -216,7 +216,7 @@ function carritoHTML () {
         <p>${item.title}</p>
         <p>${item.price}</p>
         
-        <img src="../Together/css/assets/Iconos/borrar.png" class="delete-icon" alt="Eliminar producto">
+        <img src="css/assets/Iconos/close.png" class="delete-icon" alt="Eliminar producto">
             </i>
         `;
 
@@ -225,12 +225,13 @@ function carritoHTML () {
 }
 
 let contador = 0;
+const valor = document.getElementById("valor");  // Tenemos un contenedor con id="valor"
 
-const value = document.getElementById("valor");
-const btnAdd = document.querySelector(".articles_btn");
+const btnsAdd = document.querySelectorAll(".articles_btn");  // Seleccionamos todos los botones con la clase .articles_btn
 
-btnAdd.onclick = function() {
-    contador++;
-
-    value.innerHTML = contador;   
-}
+btnsAdd.forEach(function(btn) {
+    btn.onclick = function() {
+        contador++;  // Incrementamos el contador cada vez que se hace clic en un botón
+        valor.innerHTML = contador;  // Actualizamos el contador en la página
+    }
+});
