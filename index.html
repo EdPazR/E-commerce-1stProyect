@@ -17,11 +17,9 @@
 
             <i><img src="css/assets/Iconos/icons8-menú-30.png" alt="IconMenu" id="nav__icon1"></i>
             <a href="index__login/index__login.html" class="nav__menu1">Sign-In</a>
-            <a href="" class="nav__menu1">Log-In</a>
-            <a href="" class="nav__menu1">Search</a>
-            <a href="" class="nav__menu1">Contact</a>
+            <a href="#" class="nav__menu1">Log-In</a>
+            <a href="#" class="nav__menu1" >Contact</a>
             <i><img src="css/assets/Iconos/icons8-nike-an-american-multinational-corporation---footwear,-apparel,-equipment,-accessories,-and-services-96.png" alt="iconMenu" class="nav__icon nav__icon--logo"></i>
-            <a href="" class="nav__menu2" class="nav__discount">50% Discount</a>
             <a href="" class="nav__menu2">Woman</a>
             <a href="" class="nav__menu2">Men</a>
             <a href="" class="nav__menu2">Children</a>
@@ -45,7 +43,17 @@
         </section>
 
         <ul class="ul__menu">
-            <li class="ul__menu_li">Categories</li>
+            <!--UPDATE DROPDOWN--> <li class="ul__menu_li"  class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Categories
+                <div class="btn-group">
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Woman</a></li>
+                      <li><a class="dropdown-item" href="#">Men</a></li>
+                      <li><a class="dropdown-item" href="#">Children</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                  </div>
+            </li>
             <li class="ul__menu_li">Launches</li>
             <li class="ul__menu_li">Brands</li>
             <li class="ul__menu_li">Teams</li>
@@ -60,7 +68,7 @@
         <section class="banner">
 
         <section> 
-            <DIV></DIV>
+            <dic></div>
             <a href="" class="banner__title">New Products!</a>
             <button></button>
         </section>
@@ -92,50 +100,50 @@
 
         <section class="Products">
             <div class="menu__Products">
-                <article>
-                    <h2>Tendencias del Verano</h2>
+                <article class="menu__Products_item">
+                    <h2>Tendencias</h2>
                 </article>
-                <article>
+                <article class="menu__Products_item">
                     <h2>Los Mas Vendidos</h2>
                 </article>
-                <article>
+                <article class="menu__Products_item">
                     <h2>Sportive</h2>
                 </article>
-                <article>
+                <article class="menu__Products_item" >
                     <h2>X</h2>
                 </article>
             </div>
         
             <article class="Products__articles">
-            <img src="css/assets/Products/chamarra.jpg" alt="chamarra" class="articles__img">
+            <img src="css/assets/Products/chamarra.jpg" alt="chamarra" class="articles__img" height="250px">
             <h2 class="articles__title" id="txt" >Chamarra Deportiva Nike</h2>
             <p class="articles__price">3,000.00 USD</p>
             <button class="articles_btn" 
-            data-id="1">Agregar al carrito</button>
+            data-id="1">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
-                <img src="css/assets/Products/playera-adidas.jpg" alt="playera-adidas" 
+                <img src="css/assets/Products/playera-adidas.jpg" alt="playera-adidas"  height="260px"
                 class="articles__img">
                 <h2 class="articles__title">Playera Deportiva Adidas</h2>
                 <p class="articles__price">1,000 USD</p>
-               <div>
-                <button class="articles_btn" data-id="2">Agregar al carrito</button>
-                </div> 
+               
+                <button class="articles_btn" data-id="2">Add to Cart.</button>
+                
             </article>
 
             <article class="Products__articles">
-                <img src="css/assets/Products/playera-lacoste.jpg" alt="playera-lacoste" class="articles__img">
+                <img src="css/assets/Products/playera-lacoste.jpg" alt="playera-lacoste" class="articles__img" height="260px">
                 <h2 class="articles__title">Playera Deportiva Lacoste</h2>
                 <p class="articles__price">5,000 USD</p>
-                <button class="articles_btn" data-id=3>Agregar al carrito</button>
+                <button class="articles_btn" data-id=3>Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
-                <img src="css/assets/Products/playera-puma.jpg" alt="playera-puma" class="articles__img">
+                <img src="css/assets/Products/playera-puma.jpg" alt="playera-puma" class="articles__img" height="260px">
                 <h2 class="articles__title">Tenis Puma</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="4">Agregar al carrito</button>
+                <button class="articles_btn" data-id="4">Add to Cart.</button>
             </article>
 
             
@@ -144,21 +152,21 @@
                 <img src="css/assets/Products/tenis-adidas.jpg" alt="tennis-adidas" class="articles__img">
                 <h2 class="articles__title">Playera Puma</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="5">Agregar al carrito</button>
+                <button class="articles_btn" data-id="5">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
                 <img src="css/assets/Products/tenis-lacoste.avif" alt="tennis-lacoste" class="articles__img">
                 <h2 class="articles__title">Tenis Adidas</h2>
                 <p class="articles__price">2,500.00</p>
-                <button class="articles_btn" data-id="6">Agregar al carrito</button>
+                <button class="articles_btn" data-id="6">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
                 <img src="css/assets/Products/tenis-puma.avif" alt="tenis-puma" class="articles__img">
                 <h2 class="articles__title">Tenis Lacoste</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="7">Agregar al carrito</button>
+                <button class="articles_btn" data-id="7">Add to Cart.</button>
             </article>
 
 
@@ -166,7 +174,7 @@
                 <img src="css/assets/Products/nike23.jfif" alt="Tenisnike23" class="articles__img">
                 <h2 class="articles__title">Tenis N23</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="8">Agregar al carrito</button>
+                <button class="articles_btn" data-id="8">Add to Cart.</button>
             </article>
 
 
@@ -175,28 +183,28 @@
                 <img src="css/assets/Products/nikescott.jfif" alt="Scott" class="articles__img">
                 <h2 class="articles__title">Tenis N23</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="9">Agregar al carrito</button>
+                <button class="articles_btn" data-id="9">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
                 <img src="css/assets/Products/nikeB.jpg" alt="NikeB" class="articles__img">
                 <h2 class="articles__title">Tenis N23</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn " data-id="10">Agregar al carrito</button>
+                <button class="articles_btn " data-id="10">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
                 <img src="css/assets/Products/nikea.jfif" alt="NikeJ" class="articles__img">
                 <h2 class="articles__title">Tenis N23</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="11">Agregar al carrito</button>
+                <button class="articles_btn" data-id="11">Add to Cart.</button>
             </article>
 
             <article class="Products__articles">
                 <img src="css/assets/Products/nikeJ.jfif" alt="Scott" class="articles__img" width="50">
                 <h2 class="articles__title">Tenis N23</h2>
                 <p class="articles__price">500.00 USD</p>
-                <button class="articles_btn" data-id="12">Agregar al carrito</button>
+                <button class="articles_btn" data-id="12">Add to Cart.</button>
             </article>
         </section>
 
@@ -221,7 +229,7 @@
             </div>
         </ul>
                 <div class="cart__buy" >
-                <button class="cart__buy__buyIcon">BUY</button>
+                <button class="cart__buy__buyIcon">Buy Now!</button>
             </div>
         </section>
 

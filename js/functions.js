@@ -221,7 +221,22 @@ function carritoHTML () {
         `;
 
         cartContainer.appendChild(fila)    
-    });  
+
+        
+// Agregamos la funcionalidad para eliminar el artículo del carrito
+const removeItem = fila.querySelector(".delete-icon");
+removeItem.onclick = function() {
+    // Eliminamos el artículo de `articlesCart` y actualizamos el carrito
+    articlesCart = articlesCart.filter(cartItem => cartItem.id !== item.id);
+    fila.remove();  // Eliminamos el artículo del carrito en el DOM
+    updateCartCounter();  // Actualizamos el contador
+};
+});
+}
+
+function updateCartCounter() {
+    const valor = document.getElementById("valor");
+    valor.innerHTML = articlesCart.length;
 }
 
 let contador = 0;
@@ -232,6 +247,6 @@ const btnsAdd = document.querySelectorAll(".articles_btn");  // Seleccionamos to
 btnsAdd.forEach(function(btn) {
     btn.onclick = function() {
         contador++;  // Incrementamos el contador cada vez que se hace clic en un botón
-        valor.innerHTML = contador;  // Actualizamos el contador en la página
+        valor.innerHTML = contador;  // Se actualizamos el contador en la página
     }
 });
